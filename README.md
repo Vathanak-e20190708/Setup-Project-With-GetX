@@ -5,5 +5,7 @@
    flutter create your_project_name
      ```
    > Example: flutter create ecommerce
-3. After finish create project, Please add getx library to pubspec.yarn file:
+   > 
+2. After finish create project, Please add getx library to pubspec.yarn file:
+   
    > GetX Library: https://pub.dev/packages/get
