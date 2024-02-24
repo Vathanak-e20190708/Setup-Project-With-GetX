@@ -8,4 +8,4 @@
    > 
 2. After finish create project, Please add getx library to pubspec.yarn file:
    
-   > GetX Library: https://pub.dev/packages/get
+   > GetX Library: https://pub.dev/packages/get //Run flutter pub get to fetch the package.
