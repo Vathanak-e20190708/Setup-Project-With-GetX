@@ -8,5 +8,8 @@
    > 
 2. After finish create project, Please add getx library to pubspec.yarn file:
    
-   > - GetX Library: https://pub.dev/packages/get
+   > - Library:
+   >      - https://pub.dev/packages/get
+   >      - https://pub.dev/packages/bot_toast
+   >      - https://pub.dev/packages/animated_splash_screen
    > - Run flutter pub get to fetch the package.
