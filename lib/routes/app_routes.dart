@@ -4,5 +4,6 @@ abstract class Routes {
   Routes._();
 
   static const splash = Paths.splash;
+  static const onboard = Paths.onboard;
   static const home = Paths.home;
 }

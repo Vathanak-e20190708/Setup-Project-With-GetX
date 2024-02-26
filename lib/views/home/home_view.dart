@@ -7,23 +7,14 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: IconButton(
-          icon: const Icon(
-            Icons.arrow_back_ios,
-            size: 20,
-          ),
-          onPressed: () {
-            Navigator.pop(context);
-          },
-        ),
-        title: const Text('Plant Shop'),
+        title: Text('Plant Shop'),
         centerTitle: true,
       ),
-      body: const Center(
+      body: Center(
         child: Text(
-          'body',
+          'BODY',
           style: TextStyle(
-            fontSize: 24,
+            fontSize: 30,
             fontWeight: FontWeight.bold,
           ),
         ),
