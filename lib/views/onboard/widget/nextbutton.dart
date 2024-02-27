@@ -1,12 +1,10 @@
-import 'package:animate_do/animate_do.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import '../../../constants/const.dart';
-import '../../../themes/colors/color.dart';
-import '../../home/home_view.dart';
+import 'package:plant_shop_app/constants/const.dart';
+import 'package:plant_shop_app/home.dart';
+import 'package:plant_shop_app/themes/colors/color.dart';
 
 class BottomNavigationButton extends StatelessWidget {
   final int current;
@@ -86,7 +84,7 @@ class BottomNavigationButton extends StatelessWidget {
                           Navigator.push(
                             context,
                             CupertinoPageRoute<Widget>(
-                              builder: (BuildContext context) => HomeView(),
+                              builder: (BuildContext context) => Home(),
                             ),
                           );
                         },

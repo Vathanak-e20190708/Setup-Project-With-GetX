@@ -5,5 +5,7 @@ abstract class Routes {
 
   static const splash = Paths.splash;
   static const onboard = Paths.onboard;
-  static const home = Paths.home;
+  static const home = Paths.homeview;
+  static const cart = Paths.cartview;
+  static const profile = Paths.profileview;
 }
