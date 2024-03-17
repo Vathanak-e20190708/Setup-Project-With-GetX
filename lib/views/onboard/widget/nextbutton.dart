@@ -91,7 +91,7 @@ class BottomNavigationButton extends StatelessWidget {
                         child: const Text(
                           'Get Started',
                           style: TextStyle(
-                            color: AppColor.primary,
+                            color: Color(0xff67864a),
                             fontSize: 28,
                           ),
                         ),

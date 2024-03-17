@@ -12,13 +12,14 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.2
+  cupertino_icons: ^1.0.6
   get: ^4.6.6
   bot_toast: ^4.1.3
   animated_splash_screen: ^1.3.0
   carousel_slider: ^4.2.1
   animate_do: ^3.3.3
   lottie: ^3.1.0
+  flutter_svg: ^2.0.10+1
 
 dev_dependencies:
   flutter_test:
@@ -30,6 +31,7 @@ flutter:
   uses-material-design: true
 
   assets:
+    - assets/icons/
     - assets/images/
     - assets/images/pics/
     - assets/images/onboard/

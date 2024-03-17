@@ -21,7 +21,6 @@ class _HomeState extends State<Home> {
 
   final List _pages = [
     HomeView(),
-    CartView(),
     ProfileView(),
   ];
 
@@ -34,20 +33,16 @@ class _HomeState extends State<Home> {
         type: BottomNavigationBarType.fixed,
         backgroundColor: Colors.white,
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.black,
+        selectedItemColor: Colors.green,
         unselectedItemColor: Colors.grey.shade500,
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.home_outlined),
+            icon: Icon(Icons.home_rounded),
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.shopping_cart_outlined),
-            label: 'Cart',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person_2_outlined),
-            label: 'Profile',
+            icon: Icon(Icons.person_rounded),
+            label: 'Me',
           ),
         ],
       ),

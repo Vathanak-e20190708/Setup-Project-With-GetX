@@ -25,7 +25,7 @@ class ProfileView extends StatelessWidget {
                   borderRadius: BorderRadius.circular(100),
                   boxShadow: [
                     BoxShadow(
-                        color: ThemeColor.awesomeColor.withOpacity(.6),
+                        color: AppColor.awesomeColor.withOpacity(.6),
                         spreadRadius: 6,
                         blurRadius: 6)
                   ]),
@@ -57,7 +57,7 @@ class ProfileView extends StatelessWidget {
           boxShadow: [
             BoxShadow(
                 offset: Offset(3, 3),
-                color: ThemeColor.awesomeColor.withOpacity(.6),
+                color: AppColor.awesomeColor.withOpacity(.6),
                 spreadRadius: 3,
                 blurRadius: 6)
           ]),

@@ -6,12 +6,7 @@ class CartView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text(
-          "Cart Page",
-          style: TextStyle(fontSize: 30),
-        ),
-      ),
+      body: Center(child: Image.asset("assets/images/pic/9.png")),
     );
   }
 }
